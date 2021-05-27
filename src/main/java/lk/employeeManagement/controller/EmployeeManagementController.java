@@ -70,10 +70,7 @@ public class EmployeeManagementController {
 	public PaymentsGetResponse getLastFivePayments(@RequestBody Employee employee) {
 		return employeeManagementService.getLastFivePayments(employee);
 	}
-	@GetMapping("/temp")
-	public String temp() {
-		return "Waruni Sandareka";
-	}
+
 
 	
 };
